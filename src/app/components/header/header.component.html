@@ -1,0 +1,23 @@
+<header>
+  <div class="container-header">
+      <a routerLink="/" class="logo">
+          <div class="brand">
+              <img src="../../assets/images/pilha-de-tres-livros-branco.png" alt="Icone de livros preto">
+              <span>WorkSpace</span>
+          </div>
+      </a>
+      <nav>
+          <ul>
+              <li routerLink="/">Home</li>
+              <li routerLink="/sandbox">SandBox</li>
+              <li>Docs</li>
+              <li>Stacks</li>
+              <li id="account" routerLink="/account">Conta</li>
+          </ul>
+      </nav>
+      <!-- <div class="dark-mode">
+              <img *ngIf="themeService.theme === templateEnums.theme.LIGHT" src="../../../assets/images/dark-mode.png" alt="Dark Mode Icon" (click)="themeSwitch()">
+              <img *ngIf="themeService.theme === templateEnums.theme.DARK" src="../../../assets/images/dark-mode-light.png" alt="Light Mode Icon" (click)="themeSwitch()">
+      </div> -->
+  </div>
+</header>
